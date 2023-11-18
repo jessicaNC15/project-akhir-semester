@@ -21,13 +21,13 @@
         .container .page {
             width: 100%;
             min-height: 120vh;
-            background-image: url(assets/bg_history.jpg);
+            background-image: url(assets/bg_1.jpg);
             background-size: cover;
             margin-bottom: 10px;
         }
 
         .container .page h1 {
-            font-size: 45pt;
+            font-size: 55pt;
             text-align: center;
             justify-content: center;
             padding: 20px;
@@ -91,13 +91,39 @@
             font-size: 15pt;
         }
 
-
-        /* .page a {
-            text-align: center;
+        .container .page .footer {
+            padding-top: 450px;
             justify-content: center;
-            display: flex;
-            padding: 45px;
-        } */
+            text-align: center;
+        }
+
+        .container .page .footer .line {
+            width: 350px;
+            height: 1px;
+            background-color: black;
+            margin: 10px auto;
+        }
+
+        .container .page .footer .nav {
+            padding: auto;
+            text-align: center;
+        }
+
+        .container .page .footer .nav a {
+            width: 175px;
+            height: 40px;
+            border-radius: 25px;
+            display: inline-flex;
+            justify-content: space-around;
+            margin-top: 40px;
+            padding-top: 4px;
+            font-size: 20pt;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            background-color: antiquewhite;
+        }
+
     </style>
 </head>
 <body>
@@ -147,6 +173,15 @@
                 </div>
                 
             </div> 
+
+            <div class="footer">
+                <div class="line"></div>
+                <div class="nav">
+                    <a href="index.html">Main Page</a>
+                    <a href="menu.html">Menu</a>
+                </div>
+            </div>
+
         </section>
     </div>
 </body>
